@@ -38,6 +38,8 @@ bitflags! {
 
         const MIDWEEK = WeekdayFlags::MON.bits() | WeekdayFlags::TUE.bits() | WeekdayFlags::WED.bits() 
             | WeekdayFlags::THU.bits() | WeekdayFlags::FRI.bits();
+
+        const WEEKEND = WeekdayFlags::SAT.bits() | WeekdayFlags::SUN.bits();
     }
 }
 
